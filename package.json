@@ -1,0 +1,16 @@
+{
+  "name": "my-site-copy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./CSS/styles.css -o ./CSS/output.css",
+    "watch": "tailwindcss -i ./CSS/styles.css -o ./CSS/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
